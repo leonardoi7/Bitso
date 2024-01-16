@@ -51,9 +51,13 @@
 		A716FB7B2B5652AF00B5FD0D /* Bitso */ = {
 			isa = PBXGroup;
 			children = (
-				A716FB7C2B5652AF00B5FD0D /* BitsoApp.swift */,
-				A716FB7E2B5652AF00B5FD0D /* ContentView.swift */,
 				A716FB802B5652B000B5FD0D /* Assets.xcassets */,
+				A716FB7C2B5652AF00B5FD0D /* BitsoApp.swift */,
+				A716FB8A2B56541600B5FD0D /* DI */,
+				A716FB8B2B56542200B5FD0D /* Services */,
+				A716FB8C2B56542600B5FD0D /* Models */,
+				A716FB8D2B56542C00B5FD0D /* ViewModels */,
+				A716FB8E2B56543400B5FD0D /* Views */,
 				A716FB822B5652B000B5FD0D /* Preview Content */,
 			);
 			path = Bitso;
@@ -65,6 +69,42 @@
 				A716FB832B5652B000B5FD0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A716FB8A2B56541600B5FD0D /* DI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		A716FB8B2B56542200B5FD0D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A716FB8C2B56542600B5FD0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A716FB8D2B56542C00B5FD0D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A716FB8E2B56543400B5FD0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A716FB7E2B5652AF00B5FD0D /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
