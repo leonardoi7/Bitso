@@ -10,6 +10,18 @@
 		A71524B22B579D1800862F50 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A71524B12B579D1800862F50 /* Realm */; };
 		A71524B42B579D1800862F50 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A71524B32B579D1800862F50 /* RealmSwift */; };
 		A71524B72B57A15C00862F50 /* DataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71524B62B57A15C00862F50 /* DataEntity.swift */; };
+		A71524C22B57DA0600862F50 /* BitsoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71524C12B57DA0600862F50 /* BitsoTests.swift */; };
+		A71524C92B57DBAF00862F50 /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = A71524C82B57DBAF00862F50 /* Response.json */; };
+		A71524CA2B57DC8800862F50 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716FB9E2B566CC000B5FD0D /* Pagination.swift */; };
+		A71524CB2B57DC8A00862F50 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716FBA02B566CCB00B5FD0D /* Thumbnail.swift */; };
+		A71524CC2B57DC8D00862F50 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716FBA22B566CD300B5FD0D /* Data.swift */; };
+		A71524CD2B57DC8F00862F50 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716FBA42B566CDD00B5FD0D /* Config.swift */; };
+		A71524CE2B57DC9100862F50 /* Artworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716FBA62B566CE500B5FD0D /* Artworks.swift */; };
+		A71524CF2B57DC9300862F50 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716FBA82B566D2100B5FD0D /* Info.swift */; };
+		A71524D02B57DC9500862F50 /* DimensionsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E188452B57952300B1C458 /* DimensionsDetail.swift */; };
+		A71524D12B57DC9800862F50 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E188472B57953E00B1C458 /* Color.swift */; };
+		A71524D22B57DC9A00862F50 /* SuggestAutocompleteAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E188492B57955000B1C458 /* SuggestAutocompleteAll.swift */; };
+		A71524D32B57DC9C00862F50 /* Contexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E1884B2B57957300B1C458 /* Contexts.swift */; };
 		A716FB7D2B5652AF00B5FD0D /* BitsoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716FB7C2B5652AF00B5FD0D /* BitsoApp.swift */; };
 		A716FB812B5652B000B5FD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A716FB802B5652B000B5FD0D /* Assets.xcassets */; };
 		A716FB842B5652B000B5FD0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A716FB832B5652B000B5FD0D /* Preview Assets.xcassets */; };
@@ -33,8 +45,21 @@
 		A7E1884C2B57957300B1C458 /* Contexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E1884B2B57957300B1C458 /* Contexts.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A71524C32B57DA0600862F50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A716FB712B5652AF00B5FD0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A716FB782B5652AF00B5FD0D;
+			remoteInfo = Bitso;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		A71524B62B57A15C00862F50 /* DataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntity.swift; sourceTree = "<group>"; };
+		A71524BF2B57DA0600862F50 /* BitsoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitsoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A71524C12B57DA0600862F50 /* BitsoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoTests.swift; sourceTree = "<group>"; };
+		A71524C82B57DBAF00862F50 /* Response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
 		A716FB792B5652AF00B5FD0D /* Bitso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A716FB7C2B5652AF00B5FD0D /* BitsoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoApp.swift; sourceTree = "<group>"; };
 		A716FB802B5652B000B5FD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,6 +85,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A71524BC2B57DA0600862F50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A716FB762B5652AF00B5FD0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,10 +112,20 @@
 			path = "Realm Models";
 			sourceTree = "<group>";
 		};
+		A71524C02B57DA0600862F50 /* BitsoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A71524C12B57DA0600862F50 /* BitsoTests.swift */,
+				A71524C82B57DBAF00862F50 /* Response.json */,
+			);
+			path = BitsoTests;
+			sourceTree = "<group>";
+		};
 		A716FB702B5652AF00B5FD0D = {
 			isa = PBXGroup;
 			children = (
 				A716FB7B2B5652AF00B5FD0D /* Bitso */,
+				A71524C02B57DA0600862F50 /* BitsoTests */,
 				A716FB7A2B5652AF00B5FD0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				A716FB792B5652AF00B5FD0D /* Bitso.app */,
+				A71524BF2B57DA0600862F50 /* BitsoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +235,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A71524BE2B57DA0600862F50 /* BitsoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A71524C52B57DA0600862F50 /* Build configuration list for PBXNativeTarget "BitsoTests" */;
+			buildPhases = (
+				A71524BB2B57DA0600862F50 /* Sources */,
+				A71524BC2B57DA0600862F50 /* Frameworks */,
+				A71524BD2B57DA0600862F50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A71524C42B57DA0600862F50 /* PBXTargetDependency */,
+			);
+			name = BitsoTests;
+			productName = BitsoTests;
+			productReference = A71524BF2B57DA0600862F50 /* BitsoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A716FB782B5652AF00B5FD0D /* Bitso */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A716FB872B5652B000B5FD0D /* Build configuration list for PBXNativeTarget "Bitso" */;
@@ -223,6 +284,10 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					A71524BE2B57DA0600862F50 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = A716FB782B5652AF00B5FD0D;
+					};
 					A716FB782B5652AF00B5FD0D = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -245,11 +310,20 @@
 			projectRoot = "";
 			targets = (
 				A716FB782B5652AF00B5FD0D /* Bitso */,
+				A71524BE2B57DA0600862F50 /* BitsoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A71524BD2B57DA0600862F50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71524C92B57DBAF00862F50 /* Response.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A716FB772B5652AF00B5FD0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -262,6 +336,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A71524BB2B57DA0600862F50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A71524D32B57DC9C00862F50 /* Contexts.swift in Sources */,
+				A71524CE2B57DC9100862F50 /* Artworks.swift in Sources */,
+				A71524C22B57DA0600862F50 /* BitsoTests.swift in Sources */,
+				A71524CA2B57DC8800862F50 /* Pagination.swift in Sources */,
+				A71524CD2B57DC8F00862F50 /* Config.swift in Sources */,
+				A71524CB2B57DC8A00862F50 /* Thumbnail.swift in Sources */,
+				A71524D02B57DC9500862F50 /* DimensionsDetail.swift in Sources */,
+				A71524D22B57DC9A00862F50 /* SuggestAutocompleteAll.swift in Sources */,
+				A71524CC2B57DC8D00862F50 /* Data.swift in Sources */,
+				A71524CF2B57DC9300862F50 /* Info.swift in Sources */,
+				A71524D12B57DC9800862F50 /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A716FB752B5652AF00B5FD0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -291,7 +383,49 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		A71524C42B57DA0600862F50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A716FB782B5652AF00B5FD0D /* Bitso */;
+			targetProxy = A71524C32B57DA0600862F50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		A71524C62B57DA0600862F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardoiquintero.BitsoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bitso";
+			};
+			name = Debug;
+		};
+		A71524C72B57DA0600862F50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardoiquintero.BitsoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bitso.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Bitso";
+			};
+			name = Release;
+		};
 		A716FB852B5652B000B5FD0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -472,6 +606,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A71524C52B57DA0600862F50 /* Build configuration list for PBXNativeTarget "BitsoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A71524C62B57DA0600862F50 /* Debug */,
+				A71524C72B57DA0600862F50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A716FB742B5652AF00B5FD0D /* Build configuration list for PBXProject "Bitso" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
