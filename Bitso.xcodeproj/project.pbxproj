@@ -34,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A71524B62B57A15C00862F50 /* DataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntity.swift; sourceTree = "<group>"; };
 		A716FB792B5652AF00B5FD0D /* Bitso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bitso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A716FB7C2B5652AF00B5FD0D /* BitsoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitsoApp.swift; sourceTree = "<group>"; };
 		A716FB802B5652B000B5FD0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -172,8 +173,8 @@
 		A716FB942B56550C00B5FD0D /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				A716FB962B56553A00B5FD0D /* NetworkServiceProtocol.swift */,
 				A716FB982B56554800B5FD0D /* NetworkService.swift */,
+				A716FB962B56553A00B5FD0D /* NetworkServiceProtocol.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -278,6 +279,7 @@
 				A716FB9F2B566CC000B5FD0D /* Pagination.swift in Sources */,
 				A716FB9D2B56556100B5FD0D /* DatabaseService.swift in Sources */,
 				A716FBAF2B566FDC00B5FD0D /* ArtworkDetailView.swift in Sources */,
+				A71524B72B57A15C00862F50 /* DataEntity.swift in Sources */,
 				A716FBA12B566CCB00B5FD0D /* Thumbnail.swift in Sources */,
 				A716FB972B56553A00B5FD0D /* NetworkServiceProtocol.swift in Sources */,
 				A7E188462B57952300B1C458 /* DimensionsDetail.swift in Sources */,
