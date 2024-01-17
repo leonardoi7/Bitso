@@ -7,7 +7,11 @@
 
 import Foundation
 
-struct Data: Codable, Identifiable {
+struct Data: Codable, Identifiable, Equatable {
+    static func == (lhs: Data, rhs: Data) -> Bool {
+        return lhs.id == rhs.id
+    }
+    
     var id: Int?
     var apiModel: String?
     var apiLink: String?
