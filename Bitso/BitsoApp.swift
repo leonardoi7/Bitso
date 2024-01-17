@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct BitsoApp: App {
+    let dependencies = AppDependencies()
+    var networkService: NetworkServiceProtocol { dependencies.networkService }
+    var databaseService: DatabaseServiceProtocol { dependencies.databaseService }
+    var artworksViewModel: ArtworksViewModel { ArtworksViewModel(networkService: networkService) }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ArtworksView(viewModel: artworksViewModel)
+                .environmentObject(dependencies)
         }
     }
 }
