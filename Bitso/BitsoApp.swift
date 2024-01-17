@@ -12,7 +12,7 @@ struct BitsoApp: App {
     let dependencies = AppDependencies()
     var networkService: NetworkServiceProtocol { dependencies.networkService }
     var databaseService: DatabaseServiceProtocol { dependencies.databaseService }
-    var artworksViewModel: ArtworksViewModel { ArtworksViewModel(networkService: networkService) }
+    var artworksViewModel: ArtworksViewModel { ArtworksViewModel(networkService: networkService, databaseService: databaseService) }
 
     var body: some Scene {
         WindowGroup {
