@@ -72,6 +72,21 @@ class DatabaseService: DatabaseServiceProtocol {
         return artworksArray
     }
     
+    func clearDatabase() {
+        guard let realm = realm else {
+            print("Realm is not initialized.")
+            return
+        }
+        
+        do {
+            try realm.write {
+                realm.deleteAll()
+            }
+        } catch {
+            print("Error clearing database: \(error)")
+        }
+    }
+    
     private func saveDataEntity(dataEntity: DataEntity) {
         guard let realm = realm else {
             print("Realm is not initialized.")
