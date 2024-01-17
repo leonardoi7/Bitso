@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A71524B22B579D1800862F50 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A71524B12B579D1800862F50 /* Realm */; };
+		A71524B42B579D1800862F50 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A71524B32B579D1800862F50 /* RealmSwift */; };
+		A71524B72B57A15C00862F50 /* DataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71524B62B57A15C00862F50 /* DataEntity.swift */; };
 		A716FB7D2B5652AF00B5FD0D /* BitsoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716FB7C2B5652AF00B5FD0D /* BitsoApp.swift */; };
 		A716FB812B5652B000B5FD0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A716FB802B5652B000B5FD0D /* Assets.xcassets */; };
 		A716FB842B5652B000B5FD0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A716FB832B5652B000B5FD0D /* Preview Assets.xcassets */; };
@@ -60,12 +63,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A71524B42B579D1800862F50 /* RealmSwift in Frameworks */,
+				A71524B22B579D1800862F50 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71524B52B579E2900862F50 /* Realm Models */ = {
+			isa = PBXGroup;
+			children = (
+				A71524B62B57A15C00862F50 /* DataEntity.swift */,
+			);
+			path = "Realm Models";
+			sourceTree = "<group>";
+		};
 		A716FB702B5652AF00B5FD0D = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +181,7 @@
 		A716FB952B56551300B5FD0D /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				A71524B52B579E2900862F50 /* Realm Models */,
 				A716FB9A2B56555400B5FD0D /* DatabaseServiceProtocol.swift */,
 				A716FB9C2B56556100B5FD0D /* DatabaseService.swift */,
 			);
@@ -190,6 +204,10 @@
 			dependencies = (
 			);
 			name = Bitso;
+			packageProductDependencies = (
+				A71524B12B579D1800862F50 /* Realm */,
+				A71524B32B579D1800862F50 /* RealmSwift */,
+			);
 			productName = Bitso;
 			productReference = A716FB792B5652AF00B5FD0D /* Bitso.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +236,9 @@
 				Base,
 			);
 			mainGroup = A716FB702B5652AF00B5FD0D;
+			packageReferences = (
+				A71524B02B579D1800862F50 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = A716FB7A2B5652AF00B5FD0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
